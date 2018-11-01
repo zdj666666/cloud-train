@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.suixingpay.starter:suixingpay-starter-logback:3.0.4.RELEASE">
+    <CLASSES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/com.suixingpay.starter/suixingpay-starter-logback/3.0.4.RELEASE/b93490e49e086993bf2d5413e6900f1807647c61/suixingpay-starter-logback-3.0.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/com.suixingpay.starter/suixingpay-starter-logback/3.0.4.RELEASE/298b88a772310ab2a7e585bf0ac07cb2d64256f/suixingpay-starter-logback-3.0.4.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/com.suixingpay.starter/suixingpay-starter-logback/3.0.4.RELEASE/26897b8045f36f35acd48816a7836906a64b4ca4/suixingpay-starter-logback-3.0.4.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

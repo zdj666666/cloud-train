@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer.iml" group="cloud-demo-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer_main.iml" group="cloud-demo-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-consumer/cloud-demo-consumer_test.iml" group="cloud-demo-consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider.iml" group="cloud-demo-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider_main.iml" group="cloud-demo-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo-provider/cloud-demo-provider_test.iml" group="cloud-demo-provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka.iml" group="cloud-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka_main.iml" group="cloud-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-eureka/cloud-eureka_test.iml" group="cloud-eureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway.iml" group="cloud-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway_main.iml" group="cloud-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-gateway/cloud-gateway_test.iml" group="cloud-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-train.iml" filepath="$PROJECT_DIR$/cloud-train.iml" />
+    </modules>
+  </component>
+</project>

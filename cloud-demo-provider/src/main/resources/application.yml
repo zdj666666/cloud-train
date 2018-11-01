@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cloud-demo-providerzdj
+    
+server:
+  port: 1294
+  
+eureka:
+  client: 
+    registryFetchIntervalSeconds: 10 
+    serviceUrl:
+      defaultZone: http://172.16.42.212:1291/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+    
+feign:
+  hystrix:
+    enabled: true
+  httpclient: 
+    connectionTimeout: 1000
+    maxConnectionsPerRoute: 2
+    maxConnections: 10

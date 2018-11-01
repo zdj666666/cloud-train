@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: cloud-demo-registryzdj
+    
+server:
+  port: 1291
+  
+eureka:
+  server: 
+    evictionIntervalTimerInMs: 60000
+    enableSelfPreservation: true
+    renewalPercentThreshold: 0.85
+
+  #传播过程
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:1291/eureka

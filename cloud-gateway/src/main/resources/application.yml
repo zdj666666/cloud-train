@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: cloud-demo-gatewayzdj
+    
+server:
+  port: 1292
+
+#springcloud
+zuul:
+  semaphore:
+    maxSemaphores: 5
+  routes:
+    route1:
+      path: /demo/**
+      serviceId: cloud-demo-consumerzdj
+      #stripPrefix: false
+#在这里配置的熔断机制：
+hystrix:
+  command:
+    default: 
+      circuitBreaker: 
+        requestVolumeThreshold: 5       #请求数量
+        sleepWindowInMilliseconds: 5000 #超时时间
+        errorThresholdPercentage: 50
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000     #自动刷新时间
+        healthSnapshot:
+          intervalInMilliseconds: 500
+#配置使用请求负载算法
+cloud-demo-consumerzdj:
+  ribbon:
+     NFLoadBalancerRuleClassName: com.suixingpay.cloud.gateway.ribbon.TestRule
+          
+eureka:
+  client:
+    registryFetchIntervalSeconds: 10 
+    serviceUrl:
+      defaultZone: http://localhost:1291/eureka
+
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+
+#负载均衡实际的请求动作
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 2000
+  MaxTotalConnections: 10 #连接池最大连接数
+  MaxConnectionsPerHost: 2 #每个host最大使用连接数

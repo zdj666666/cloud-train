@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-zuul:1.4.5.RELEASE">
+    <CLASSES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-zuul/1.4.5.RELEASE/8e49c37a552780d05f6f9b14648551288d36f928/spring-cloud-starter-netflix-zuul-1.4.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-zuul/1.4.5.RELEASE/55e064cec04b7104cb628b7df4eb4c1021cee551/spring-cloud-starter-netflix-zuul-1.4.5.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-zuul/1.4.5.RELEASE/5dd75c0a8be9203d6c69662337011e96fd117be8/spring-cloud-starter-netflix-zuul-1.4.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

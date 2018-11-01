@@ -1,0 +1,13 @@
+dependencies {
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    compile("org.springframework.cloud:spring-cloud-starter-openfeign")
+    compile("io.github.openfeign:feign-httpclient")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-ribbon")
+
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("com.suixingpay.starter:suixingpay-starter-logback:$suixingpayStarterVersion") // logback及trace filter
+}
+description = "服务消费者实例"

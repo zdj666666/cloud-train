@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--debug="false"关闭logback内部监控 -->
+<configuration debug="false">
+  <property name="LOG_PATH" value="${APP_HOME:-.}/logs" />
+  <!-- 引用公共配置 -->
+  <include resource="com/suixingpay/takin/logback/base.xml" />
+  <jmxConfigurator />
+  <!-- 非生产环境环境. -->
+  <springProfile name="default, dev">
+    <logger name="com.suixingpay" level="TRACE" />
+    <logger name="com.jarvis" level="TRACE" />
+    <root level="INFO">
+      <appender-ref ref="CONSOLE" />
+      <appender-ref ref="FILE" />
+      <appender-ref ref="ERROR" />
+    </root>
+  </springProfile>
+  <springProfile name="test">
+    <logger name="org.springframework" level="WARN" />
+    <logger name="com.suixingpay" level="TRACE" />
+    <logger name="com.jarvis" level="TRACE" />
+    <root level="INFO">
+      <appender-ref ref="ASYNC_FILE" />
+      <appender-ref ref="ERROR" />
+    </root>
+  </springProfile>
+  <!-- RC、生产环境. -->
+  <springProfile name="rc, prod">
+    <logger name="org.springframework" level="WARN" />
+    <logger name="com.suixingpay" level="WARN" />
+    <root level="INFO">
+      <appender-ref ref="ASYNC_FILE" />
+      <appender-ref ref="ERROR" />
+    </root>
+  </springProfile>
+</configuration>

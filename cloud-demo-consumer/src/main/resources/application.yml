@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: cloud-demo-consumerzdj
+
+server:
+  port: 2226
+
+#cloud-demo-provider: 
+#  ribbon:  
+#    NFLoadBalancerRuleClassName: com.suixingpay.cloud.demo.consumer.ribbon.TestRule
+    
+feign:
+  hystrix:
+    enabled: true
+  httpclient: 
+    maxConnections: 10
+    maxConnectionsPerRoute: 2
+  client:
+    config: 
+      default: 
+        connectTimeout: 1000
+        readTimeout: 1000
+    
+hystrix:
+  command:
+    default: 
+    #ProviderClient#test1(String,Integer): 
+      #fallback:
+        #enabled: false
+      circuitBreaker: 
+        requestVolumeThreshold: 3
+        sleepWindowInMilliseconds: 5000
+        errorThresholdPercentage: 50
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000
+        healthSnapshot:
+          intervalInMilliseconds: 500
+      execution:
+        timeout:
+          enabled: false
+
+  threadpool:
+    default:
+      coreSize: 5
+      maxQueueSize: 1
+      
+eureka:
+  client: 
+    registryFetchIntervalSeconds: 10 
+    serviceUrl:
+      defaultZone: http://172.16.42.212:1291/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+#也可以通过在C:\Windows\System32\drivers\etc目录下新增10.1.10.2 myhostname2（主机名：计算机。属性上）
+ribbon:
+  UseIPAddrForServer: true

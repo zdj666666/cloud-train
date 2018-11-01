@@ -1,0 +1,5 @@
+rootProject.name = 'cloud-train'
+include "cloud-eureka"
+include "cloud-gateway"
+include "cloud-demo-provider"
+include "cloud-demo-consumer"

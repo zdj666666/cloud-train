@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.openfeign:feign-httpclient:9.5.0">
+    <CLASSES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/io.github.openfeign/feign-httpclient/9.5.0/c8a82c6d90edcd7fd029f80509ff58e80dc8de08/feign-httpclient-9.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/io.github.openfeign/feign-httpclient/9.5.0/cedb998b49de9bd3bae8e43d5d59729a1885bda2/feign-httpclient-9.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/gradle/gradle-2.14.1/caches/modules-2/files-2.1/io.github.openfeign/feign-httpclient/9.5.0/2b206f0d6df3f8b8c03d47a88fa7003e2d167c17/feign-httpclient-9.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
